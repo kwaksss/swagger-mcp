@@ -1,0 +1,10 @@
+﻿# IntelliJ / Java
+.idea/
+*.iml
+target/
+
+# Node.js
+node_modules/
+
+# OS
+.DS_Store
