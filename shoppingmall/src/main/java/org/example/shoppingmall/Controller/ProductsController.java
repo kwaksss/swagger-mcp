@@ -20,6 +20,7 @@ public class ProductsController {
 
     @PostMapping //데이터를 전송
     public Products createProduct(@RequestBody Products products) {
+        System.out.print("products: " + products);
         return productsService.save(products);
     }
 }

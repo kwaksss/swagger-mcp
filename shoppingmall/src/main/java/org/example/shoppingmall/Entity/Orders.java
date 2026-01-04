@@ -3,6 +3,7 @@ package org.example.shoppingmall.Entity;
 import jakarta.persistence.*;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "orders")
@@ -21,6 +22,6 @@ public class Orders {
     @Column(name = "total_price")
     private int totalPrice;
 
-    @Column(name = "ordered_date")
-    private LocalDate orderDate;
+    @Column(name = "ordered_date",insertable = false,updatable = false)
+    private LocalDateTime orderDate;
 }

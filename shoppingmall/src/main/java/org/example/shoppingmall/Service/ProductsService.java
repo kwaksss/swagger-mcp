@@ -13,11 +13,15 @@ import java.util.List;
 public class ProductsService {
     private final ProductsRepository productsRepository;
 
+    //상품 목록 조회
     public List<Products> findAll() {
+
         return productsRepository.findAll();
     }
 
+    //상품 등록.
     public Products save(Products products) {
+
         return productsRepository.save(products);
     }
 
