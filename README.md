@@ -1,13 +1,12 @@
-# Swagger MCP Server 🚀  
-> Spring Boot API를 Swagger(OpenAPI) 기반으로 Claude와 연결하기 위한 MCP 서버 프로젝트
+# Swagger MCP Server 
+> Spring Boot API를 Swagger 기반으로 Claude와 연결하기 위한 MCP 서버 프로젝트
 
 ---
 
 ## 📌 프로젝트 개요
 
-이 프로젝트는 **Spring Boot로 개발한 REST API**를  
-**Swagger(OpenAPI)** 문서를 통해 자동으로 분석하고,  
-이를 **Claude Desktop과 연결(MCP 서버)** 하여
+이 프로젝트는 **Spring Boot로 개발한 REST API**를 **Swagger(OpenAPI)** 문서를 통해 자동으로 분석하고,  
+이를 **Claude Desktop과 연결(MCP 서버)** 한다.
 
 - API 목록 파악
 - API 동작 설명
@@ -30,6 +29,20 @@
 ---
 ## 🧱 ERD
 <img width=100% height="332" alt="MiniShoppingMall" src="https://github.com/user-attachments/assets/0cc1bcf0-d983-4a0b-8231-5cb4c9242047" />
+
+## 🎯 프로젝트 - [미니 쇼핑몰]
+[사용자]
+- 회원 조회
+- 회원 생성
+
+[상품]
+- 상품 목록 조회
+- 상품 상세 조회
+- 상품 등록
+
+[주문]
+- 주문생성
+- 사용자별 주문 조회
 
 ## 🧱 전체 아키텍처
 
